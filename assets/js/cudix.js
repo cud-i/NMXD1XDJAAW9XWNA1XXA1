@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
 
     var options = {
-        strings: ["domain owner @ fraud.gay", "@cudip owns this", ":3", "aint nobody like this mf", "restrict/wasnt here"],
+        strings: ["domain owner @fraud.gay", "@cudip owns this", ":3", "aint nobody like this mf", "restrict/wasnt here"],
         typeSpeed: 45,
         backSpeed: 35,
         backDelay: 500,

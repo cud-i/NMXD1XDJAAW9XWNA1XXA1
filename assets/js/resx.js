@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
 
     var options = {
-        strings: ["creator @ nigger.gay", "cudi my righthand", "beloved  paster", "@adopters", "@backfilled"],
+        strings: ["creator @ fraud.gay", "cudi my righthand", "beloved  paster", "@adopters", "@backfilled"],
         typeSpeed: 45,
         backSpeed: 35,
         backDelay: 500,

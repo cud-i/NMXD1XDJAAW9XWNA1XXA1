@@ -13,26 +13,26 @@ document.addEventListener("DOMContentLoaded", function () {
     var playlist = [
         {
             title: "Marisburner - wtf",
-            audioSrc: "assets/media/cudimp31.mp3",
-            videoSrc: "assets/media/marisburner_-_wtf_1080p_h264_youtube (1).mp4",
+            audioSrc: "assets/media/cudiaa.mp3",
+            videoSrc: "assets/media/cudiaa.mp4",
             duration: 67 
         },
         {
             title: "Osamason - Flxr",
-            audioSrc: "assets/media/OsamaSon - Flxr [Official Music Video] (1080p60, h264, youtube)_compressed.mp3",
-            videoSrc: "assets/media/OsamaSon - Flxr [Official Music Video] (1080p60, h264, youtube)_compressed.mp4",
+            audioSrc: "assets/media/cudibb.mp3",
+            videoSrc: "assets/media/cudibb.mp4",
             duration: 108 
         },
         {
             title: "Nettspend - shine n peace",
-            audioSrc: "assets/media/shinenpeace nettspend_compressed.mp3",
-            videoSrc: "assets/media/shinenpeace nettspend_compressed.mp4",
+            audioSrc: "assets/media/cudicc.mp3",
+            videoSrc: "assets/media/cudicc.mp4",
             duration: 86 
         },
         {
             title: "Osamason - Popstar",
-            audioSrc: "assets/media/OsamaSon - popstar [Official Music Video] (1080p, h264, youtube)_compressed.mp3",
-            videoSrc: "assets/media/OsamaSon - popstar [Official Music Video] (1080p, h264, youtube)_compressed.mp4",
+            audioSrc: "assets/media/cudidd.mp3",
+            videoSrc: "assets/media/cudidd.mp4",
             duration: 103 
         },
         {

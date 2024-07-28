@@ -30,9 +30,9 @@ document.addEventListener("DOMContentLoaded", function () {
             duration: 225 
         },
         {
-            title: "OsamaSon - Kutta",
-            audioSrc: "assets/media/dd.mp3",
-            videoSrc: "assets/media/dd.mp4",
+            title: "Jaykatana - Boys 2 Men",
+            audioSrc: "assets/media/cudiee.mp3",
+            videoSrc: "assets/media/cudiee.mp4",
             duration: 225 
         },
         {
@@ -48,9 +48,9 @@ document.addEventListener("DOMContentLoaded", function () {
             duration: 225 
         },
         {
-            title: "xaviersobased - ghost town ",
-            audioSrc: "assets/media/gg.mp3",
-            videoSrc: "assets/media/gg.mp4",
+            title: "Yuke - ian goin ",
+            audioSrc: "assets/media/cudiff.mp3",
+            videoSrc: "assets/media/cudiff.mp4",
             duration: 76 
         }
     ];

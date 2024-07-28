@@ -42,9 +42,9 @@ document.addEventListener("DOMContentLoaded", function () {
             duration: 225 
         },
         {
-            title: "che - Pizza Time",
-            audioSrc: "assets/media/ff.mp3",
-            videoSrc: "assets/media/ff.mp4",
+            title: "Glokk40Spaz - Swamp",
+            audioSrc: "assets/media/cudigg.mp3",
+            videoSrc: "assets/media/cudigg.mp4",
             duration: 225 
         },
         {

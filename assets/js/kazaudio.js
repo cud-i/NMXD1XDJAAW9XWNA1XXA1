@@ -43,14 +43,14 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
             title: "Lazer Dim - Loitering",
-            audioSrc: "assets/media/kazgg.mp3",
-            videoSrc: "assets/media/kazgg.mp4",
+            audioSrc: "assets/media/kazff.mp3",
+            videoSrc: "assets/media/kazff.mp4",
             duration: 225 
         },
         {
             title: "Lazer Dim - Treacherous",
-            audioSrc: "assets/media/kazff.mp3",
-            videoSrc: "assets/media/kazff.mp4",
+            audioSrc: "assets/media/kazgg.mp3",
+            videoSrc: "assets/media/kazgg.mp4",
             duration: 76 
         }
     ];

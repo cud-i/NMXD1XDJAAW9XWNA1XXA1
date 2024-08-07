@@ -31,14 +31,14 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
             title: "Lazer Dim - Injoyable",
-            audioSrc: "assets/media/kazee.mp3",
-            videoSrc: "assets/media/kazee.mp4",
+            audioSrc: "assets/media/kazdd.mp3",
+            videoSrc: "assets/media/kazdd.mp4",
             duration: 225 
         },
         {
             title: "Lazer Dim - Evil Curse",
-            audioSrc: "assets/media/kazdd.mp3",
-            videoSrc: "assets/media/kazdd.mp4",
+            audioSrc: "assets/media/kazee.mp3",
+            videoSrc: "assets/media/kazeemp4",
             duration: 225 
         },
         {

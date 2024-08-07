@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             title: "Lazer Dim - Evil Curse",
             audioSrc: "assets/media/kazee.mp3",
-            videoSrc: "assets/media/kazeemp4",
+            videoSrc: "assets/media/kazee.mp4",
             duration: 225 
         },
         {

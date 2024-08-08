@@ -1,5 +1,5 @@
 function title() {
-    var titles = ["crafted by xeno", "paid biolink service", "discord.gg/bnr", "love you"];
+    var titles = ["crafted by restrict", "paid biolink service", "@adopters", "love you"];
     var index = 0;
 
     function newtitle() {

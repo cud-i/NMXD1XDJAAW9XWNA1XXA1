@@ -102,6 +102,16 @@ video {
 .social img:hover {
     transform: scale(1.181) translateY(-4px);
 }
+
+.badge {
+    height: 20px
+}
+
+.badgeunder {
+    animation: up 2s;
+    height: 20px
+}
+
 .line {
     left: 3.7%;
     right: 3.7%;

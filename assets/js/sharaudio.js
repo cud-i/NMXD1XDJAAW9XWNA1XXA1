@@ -31,8 +31,8 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
             title: "Yanko - Hurtings Fun",
-            audioSrc: "assets/media/sharing4.mp3",
-            videoSrc: "assets/media/sharing4.mp4",
+            audioSrc: "assets/media/sharingg4.mp3",
+            videoSrc: "assets/media/sharingg4.mp4",
             duration: 225 
         },
         {
@@ -49,8 +49,8 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
             title: "Dsavv - Drill Ain’t Dead",
-            audioSrc: "assets/media/sharing7.mp3",
-            videoSrc: "assets/media/sharing7.mp4",
+            audioSrc: "assets/media/sharingg7.mp3",
+            videoSrc: "assets/media/sharingg7.mp4",
             duration: 76 
         }
     ];

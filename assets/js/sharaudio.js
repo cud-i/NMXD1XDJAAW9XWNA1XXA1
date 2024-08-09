@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var playlist = [
         {
-            title: "Yanko X Y.CB - Lightwork Freestyle",
+            title: "Yanko - Lightwork Freestyle",
             audioSrc: "assets/media/sharing1.mp3",
             videoSrc: "assets/media/sharing1.mp4",
             duration: 186 
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
             duration: 200 
         },
         {
-            title: "Nino Uptown & Suspect (ActiveGxng) - Frostbite",
+            title: "Nino Uptown - Frostbite",
             audioSrc: "assets/media/sharing3.mp3",
             videoSrc: "assets/media/sharing3.mp4",
             duration: 225 
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
             duration: 225 
         },
         {
-            title: "Dsavv - Drill Ain’t Dead (Remix) Ft Mazza L20 x SJ x Izzpot x (67) DopeSmoke",
+            title: "Dsavv - Drill Ain’t Dead",
             audioSrc: "assets/media/sharing7.mp3",
             videoSrc: "assets/media/sharing7.mp4",
             duration: 76 

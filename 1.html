@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<head>
+    <title>@1</title>
+    <meta content="🔪" property="og:title">
+    <meta content="#000000" data-react-helmet="true" name="theme-color">
+    <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=manrope@1&amp;display=swap"/>
+    <style>
+        body {
+            background-color: rgb(1, 1, 1);
+            overflow: hidden;
+            user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            -moz-user-select: none;
+        }
+
+        #overlay {
+            background-color: rgb(1, 1, 1);
+            display: block;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            z-index: 69420;
+            transition: opacity 0.15s ease-in-out;
+        }
+
+        #click {
+            font-family: "Manrope";
+            font-weight: 700;
+            font-size: 24px;
+            color: white;
+            margin-top: 400px;
+            margin-right: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+
+        #click:hover {
+            opacity: 0.7;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .fade-out {
+            opacity: 0;
+        }
+
+        #center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center; 
+        }
+
+        #pfp {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid rgba(0, 0, 0, 0.2);
+            top: 150px;
+            pointer-events: none;
+            position: absolute;
+        }
+
+        #verified {
+            background-color: white;
+            border-radius: 15px;
+            width: 17px;
+            height: 17px;
+            top: 235px;
+            margin-left: 50px;
+            pointer-events: none;
+            position: absolute;
+        }
+
+        #username {
+            background-image: url("https://haunts.gay/img/sparkle.gif");
+            font-family: "Manrope";
+            font-size: 24px;
+            font-weight: 700;
+            color: white;
+            top: 275px;
+            pointer-events: none;
+            position: absolute;
+        }
+
+        #bio {
+            font-family: "Manrope";
+            font-size: 14px;
+            font-weight: 600;
+            color: white;
+            top: 315px;
+            opacity: 0.9;
+            pointer-events: none;
+            position: absolute; 
+        }
+
+        #discord-status {
+            width: 295px;
+            height: 60px;
+            padding: 4px;
+            top: 350px;
+            pointer-events: none;
+            position: absolute;
+        }
+
+        #discord-button {
+            width: 25px;
+            height: 19px;
+            top: 430px;
+            margin-left: -14px;
+            position: absolute;
+            cursor: pointer;
+            transition: all 0.4s ease-in-out;
+        }
+
+        #discord-button:hover {
+            opacity:  0.7;
+            transition: all 0.4s ease-in-out;
+        }
+
+        * {cursor: url(https://ani.cursors-4u.net/symbols/sym-9/sym828.ani), url(https://ani.cursors-4u.net/symbols/sym-9/sym828.png), auto !important;}
+
+        img[alt="www.000webhost.com"]{display:none}
+    </style>
+</head>
+<body>
+<script src="js/sparkle.js"></script>
+<div id="center">
+    <img id="pfp" src="https://cdn.discordapp.com/attachments/1247874842989170689/1286368208743305288/f5e7b9308d516c363323e6a986d7835b.jpg?ex=66eef8c0&is=66eda740&hm=2996b69aaf8517ce9aa79a294a0d2b13e759dd2d892454b7308b29c6e1591d41&">
+    <img id="verified" src="img/blue_check.png">
+    <span id="username">goth</span>
+    <span id="bio"></span>
+    <img id="discord-status" src="https://discord.c99.nl/widget/theme-4/986000341323624459.png">
+    <a target="_blank" href="https://discord.com/users/1094177850346713148"><img id="discord-button" src="img/dsc-white.png" title="Discord"></a>
+</div>
+<script>
+
+function enter() {
+    var overlay = document.getElementById("overlay");
+    overlay.classList.add("fade-out");
+    setTimeout(function() {overlay.style.display = "none"}, 350);
+    var audio = new Audio("audios/poison.mp3");
+    audio.volume = 0.3;
+    audio.loop = true;
+    audio.play();
+    var typed = new Typed("#bio", {strings: ["@backfilled", "@fraud.gay", "beloved paster"],typeSpeed: 60,backSpeed: 80,loop: true});  
+}
+
+window.addEventListener("keydown",e=>{e.ctrlKey&&("S"===e.key||"s"===e.key)&&e.preventDefault(),e.ctrlKey&&("C"===e.key||"c"===e.key)&&e.preventDefault(),e.ctrlKey&&("E"===e.key||"e"===e.key)&&e.preventDefault(),e.ctrlKey&&("I"===e.key||"i"===e.key||"\xc3„\xc2\xb1"===e.key)&&e.preventDefault(),e.ctrlKey&&("K"===e.key||"k"===e.key)&&e.preventDefault(),e.ctrlKey&&("U"===e.key||"u"===e.key)&&e.preventDefault()}),document.addEventListener("contextmenu",function(e){e.preventDefault()});
+</script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<div id="overlay"><div id="click" onclick="enter()">click</div></div>

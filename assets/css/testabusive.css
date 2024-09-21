@@ -1,0 +1,84 @@
+:root {
+    --bg-color-1: hsl(0, 0%, 4%);
+    --bg-color-2: hsl(0, 0%, 6%);
+    --bg-color-3: hsl(0, 0%, 17%);
+    --text-color-1: hsl(210, 14%, 95%);
+    --text-color-2: hsl(214, 11%, 88%);
+    --text-color-3: hsl(210, 3%, 88%);
+    --accent-color-1: hsl(288, 5%, 82%);
+    --accent-color-2: hsla(300, 3%, 86%, 0.89);
+    --font-family: "Satoshi", sans-serif;
+    --navbar-border-color: hsl(0, 0%, 7.7%);
+    --footer-color: hsla(220, 11%, 95%, 0.514);
+}
+
+body {
+    background-color: var(--bg-color-1);
+    color: var(--text-color-3);
+    font-family: var(--font-family);
+    margin: 0;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.navbar {
+    background-color: var(--bg-color-2);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 750px;
+    margin: 20px auto 0;
+    border: 1px solid var(--navbar-border-color);
+    border-radius: 25px;
+    overflow: hidden;
+    animation: enter 1s ease;
+}
+
+.navbar-button {
+    text-decoration: none;
+    color: var(--text-color-1);
+    font-weight: normal;
+    font-family: "Satoshi", sans-serif;
+    margin: 0 1rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+    animation: enter 1s ease;
+}
+
+.navbar-button:hover {
+    color: var(--accent-color-1);
+    transform: scale(1.05) translateY(0);
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.xeno {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    animation: enter 1s ease;
+}
+
+.xeno h1 {
+    font-size: 90px;
+    color: var(--text-color-2);
+    margin-bottom: -30px;
+    animation: enter 1s ease;
+}
+
+.xeno p {
+    font-size: 1.5rem;
+    color: #bbb;
+    animation: enter 1s ease;
+}
+
+.cart {
+    background-color: var(--accent-color-1);
+    color: var(--bg-color-

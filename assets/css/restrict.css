@@ -250,6 +250,8 @@ video {
     left: 34px;
 }
 
+
+
 .forward-button {
     width: 30px;
     height: 30px;
@@ -342,6 +344,32 @@ video {
 .phone {
     display: none;
 }
+
+.badge-container {
+    position: absolute;
+    top: 330px; /* Adjust based on your design */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between badges */
+  }
+
+  .badge {
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    position: relative;
+    top: -40px;
+  }
+
+  #badge1 {
+    width: 25px;
+    height: 25px;
+    background-image: url('https://cdn.discordapp.com/emojis/1271560260947152929.webp?size=96&quality=lossless');
+  }
+
+
 @media (max-width: 768px) {
     #enter,
     #video {

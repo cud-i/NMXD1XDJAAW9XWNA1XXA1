@@ -1,6 +1,6 @@
 /*
         
-    made by xeno n restrict
+    junky asf & terrible styles
 */
 
 #enter,
@@ -38,7 +38,7 @@ video {
     text-shadow: 2px 2px 4px rgba(1, 0, 2, 0.5);
 }
 .fixed-fluid {
-    opacity: 0.12;
+    opacity: 0.00;
     width: 100%;
     height: 100%;
     pointer-events: none;
@@ -92,7 +92,7 @@ video {
 }
 .social img {
     z-index: 2;
-    height: 40px;
+    height: 25px;
     color: #fff;
     padding: 10px 15px;
     flex-direction: row;
@@ -102,23 +102,13 @@ video {
 .social img:hover {
     transform: scale(1.181) translateY(-4px);
 }
-
-.badge {
-    height: 20px
-}
-
-.badgeunder {
-    animation: up 2s;
-    height: 20px
-}
-
 .line {
     left: 3.7%;
     right: 3.7%;
     bottom: 127px;
     height: 2.2px;
     background: linear-gradient(to right, rgba(255, 255, 255, 0), #fff, rgba(255, 255, 255, 0));
-    opacity: 0.7;
+    opacity: 0.0;
 }
 .info-box,
 .song-title {
@@ -250,8 +240,6 @@ video {
     left: 34px;
 }
 
-
-
 .forward-button {
     width: 30px;
     height: 30px;
@@ -275,6 +263,71 @@ video {
     font-weight: bold;
 }
 
+.badge-container {
+    position: absolute;
+    top: 330px; /* Adjust based on your design */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between badges */
+  }
+
+  .badge {
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    position: relative;
+    top: -40px;
+  }
+
+  #badge1 {
+    width: 25px;
+    height: 25px;
+    background-image: url('https://cdn.discordapp.com/emojis/1283565944010178561.gif?size=80&quality=lossless');
+  }
+
+  #badge2 {
+    width: 20px;
+    height: 20px;
+    background-image: url('https://cdn.discordapp.com/emojis/1204226067208994826.gif?size=44&quality=lossless');
+  }
+
+  
+  #text-pop1, #text-pop2 {
+    display: none;
+    position: absolute;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "MC";
+    padding: 5px 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    pointer-events: none;
+    white-space: nowrap;
+    animation: fade-in 0.3s ease-in-out;
+  }
+
+  #text-pop1 {
+    top: -20px; /* Adjust as needed */
+    left: -26px;
+  }
+
+  #text-pop2 {
+    top: -20px; /* Adjust as needed */
+    right: -19px;
+  }
+
+  #badge1:hover + #text-pop1 {
+    display: block;
+  }
+
+  #badge2:hover + #text-pop2 {
+    display: block;
+  }
+
+
 .pause-button {
     margin: 0 10px;
 }
@@ -282,7 +335,7 @@ video {
     width: 130px;
     height: 130px;
     border-radius: 50%;
-    background-image: url("https://files.catbox.moe/53hdv8.webp");
+    background-image: url("https://files.catbox.moe/s9n0co.png");
     background-position: center;
     top: -220px;
     border: 1.99px solid rgba(255, 255, 255, 0.2);
@@ -344,71 +397,6 @@ video {
 .phone {
     display: none;
 }
-.badge-container {
-    position: absolute;
-    top: 330px; /* Adjust based on your design */
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    align-items: center;
-    gap: 20px; /* Space between badges */
-  }
-
-  .badge {
-    background-size: cover;
-    background-position: center;
-    cursor: pointer;
-    position: relative;
-    top: -40px;
-  }
-
-  #badge1 {
-    width: 25px;
-    height: 25px;
-    background-image: url('https://cdn.discordapp.com/emojis/1270571391539744768.webp?size=96&quality=lossless');
-  }
-
-  #badge2 {
-    width: 20px;
-    height: 20px;
-    background-image: url('https://r2.guns.lol/e0e6dc5e-b9e9-4634-b012-731fff340632.gif');
-  }
-
-  
-  #text-pop1, #text-pop2 {
-    display: none;
-    position: absolute;
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: "MC";
-    padding: 5px 10px;
-    background-color: transparent;
-    border-radius: 5px;
-    pointer-events: none;
-    white-space: nowrap;
-    animation: fade-in 0.3s ease-in-out;
-  }
-
-  #text-pop1 {
-    top: -20px; /* Adjust as needed */
-    left: -26px;
-  }
-
-  #text-pop2 {
-    top: -20px; /* Adjust as needed */
-    right: -19px;
-  }
-
-  #badge1:hover + #text-pop1 {
-    display: block;
-  }
-
-  #badge2:hover + #text-pop2 {
-    display: block;
-  }
-
-
 @media (max-width: 768px) {
     #enter,
     #video {

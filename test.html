@@ -362,58 +362,7 @@ video {
 }
 .phone {
     display: none;
-}
-.badge-container {
-    position: absolute;
-    top: 330px; /* Adjust based on your design */
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    align-items: center;
-    gap: 20px; /* the gap between badges */
-  }
-  .badge {
-    background-size: cover;
-    background-position: center;
-    cursor: pointer;
-    position: relative;
-    top: -40px;
-  }
-  #badge1 {
-    width: 30px;
-    height: 30px;
-    background-image: url('https://cdn.discordapp.com/emojis/1271560260947152929.webp?size=96&quality=lossless');
-  }
-  #text-pop1, #text-pop2 {
-    display: none;
-    position: absolute;
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: "IBM Plex Mono";
-    padding: 5px 10px;
-    background-color: transparent;
-    border-radius: 5px;
-    pointer-events: none;
-    white-space: nowrap;
-    animation: fade-in 0.3s ease-in-out;
-  }
-  #text-pop1 {
-    top: -20px; /* adjust if needed */
-    left: -26px;
-  }
-  #text-pop2 {
-    top: -20px; /* adjust if needed */
-    right: -19px;
-  }
-  #badge1:hover + #text-pop1 {
-    display: block;
-  }
-  .badge,
-    #badge1,
-    #badge2 {
-        top: 170%;
-   }
+
 
 
 @media (max-width: 768px) {
@@ -427,7 +376,7 @@ video {
     .phone {
         display: block;
     }
-}
+
         .badges-wrapper {
             position: relative;
             border: 1px solid #ccc;

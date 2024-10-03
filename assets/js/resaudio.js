@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var playlist = [
         {
-            title: "OsamaSon - Dirty Bands",
+            title: "Nettspend - Funuhyuh",
             audioSrc: "assets/media/aa.mp3",
             videoSrc: "assets/media/aa.mp4",
             duration: 78 

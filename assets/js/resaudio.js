@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
             duration: 78 
         },
         {
-            title: "HI-C - LSD on my Tounge",
+            title: "Nettspend - what they say¿",
             audioSrc: "assets/media/bb.mp3",
             videoSrc: "assets/media/bb.mp4",
             duration: 200 
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
             duration: 225 
         },
         {
-            title: "BLOODR4YNE - HI-C SO ICEY",
+            title: "Nettspend - We Not Like You",
             audioSrc: "assets/media/ee.mp3",
             videoSrc: "assets/media/ee.mp4",
             duration: 225 
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
             duration: 225 
         },
         {
-            title: "xaviersobased - ghost town ",
+            title: "Nettspend - Shine N Peace",
             audioSrc: "assets/media/gg.mp3",
             videoSrc: "assets/media/gg.mp4",
             duration: 76 

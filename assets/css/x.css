@@ -16,7 +16,6 @@ body {
     overflow: hidden; 
 }
 * {cursor: url(https://cur.cursors-4u.net/cursors/cur-7/cur610.cur), auto !important;}
-.description,
 .profile-container {
     width: 500px; 
     height: 420px; 
@@ -536,6 +535,7 @@ video {
     -webkit-animation: rainbow 5s infinite;
     -ms-animation: rainbow 5s infinite;
 }
+.description,
 .info-box {
     width: 88.6%;
     height: 120px;

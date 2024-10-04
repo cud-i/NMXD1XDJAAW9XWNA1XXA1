@@ -13,13 +13,13 @@ document.addEventListener("DOMContentLoaded", function () {
     var playlist = [
         {
             title: "Nettspend - What they say¿",
-            audioSrc: "assets/media/bb.mp3",
-            videoSrc: "assets/media/bb.mp4",
+            audioSrc: "assets/media/aa.mp3",
+            videoSrc: "assets/media/aa.mp4",
             duration: 78 
         },
         {
             title: "Nettspend - Funuyuh",
-            audioSrc: "assets/media/aa.mp3",
+            audioSrc: "assets/media/bb.mp3",
             videoSrc: "assets/media/bb.mp4",
             duration: 200 
         },

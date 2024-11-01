@@ -29,14 +29,14 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Nettspend - shine n peace",
             audioSrc: "assets/media/cudicc.mp3",
             videoSrc: "assets/media/cudicc.mp4",
-            duration: 225 
+            duration: 175 
         },
         <!-- ^^ sixth video ^^ -->
         {
             title: "Jaykatana - Boys 2 Men",
             audioSrc: "assets/media/cudiee.mp3",
             videoSrc: "assets/media/cudiee.mp4",
-            duration: 225 
+            duration: 200 
         },
         <!-- ^^ fifth video ^^ -->
         {
@@ -50,14 +50,14 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Glokk40Spaz - Swamp",
             audioSrc: "assets/media/cudigg.mp3",
             videoSrc: "assets/media/cudigg.mp4",
-            duration: 225 
+            duration: 200 
         },
         <!-- ^^ third video ^^ -->
         {
             title: "Fimiguerrero - Excuse My French",
             audioSrc: "assets/media/cudihh.mp3",
             videoSrc: "assets/media/cudihh.mp4",
-            duration: 225 
+            duration: 150 
         }
     ];
         <!-- ^^ second video ^^ -->

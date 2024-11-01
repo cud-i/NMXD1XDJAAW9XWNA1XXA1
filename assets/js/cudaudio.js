@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Fimiguerrero - Excuse My French ",
             audioSrc: "assets/media/cudihh.mp3",
             videoSrc: "assets/media/cudihh.mp4",
-            duration: 90 
+            duration: 225 
         }
     ];
         <!-- ^^ second video ^^ -->

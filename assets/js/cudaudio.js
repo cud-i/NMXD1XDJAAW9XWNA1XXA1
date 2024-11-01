@@ -10,50 +10,57 @@ document.addEventListener("DOMContentLoaded", function () {
         forwardButton = document.querySelector(".forward-button"),
         backwardButton = document.querySelector(".backward-button");
 
-    var playlist = [
+    var playlist = [ 
         {
             title: "Marisburner - wtf",
             audioSrc: "assets/media/cudiaa.mp3",
             videoSrc: "assets/media/cudiaa.mp4",
             duration: 78 
         },
+        <!-- ^^ first video ^^ -->
         {
             title: "Osamason - Flxr",
             audioSrc: "assets/media/cudibb.mp3",
             videoSrc: "assets/media/cudibb.mp4",
             duration: 200 
         },
+        <!-- ^^ seventh video ^^ -->
         {
             title: "Nettspend - shine n peace",
             audioSrc: "assets/media/cudicc.mp3",
             videoSrc: "assets/media/cudicc.mp4",
             duration: 225 
         },
+        <!-- ^^ sixth video ^^ -->
         {
             title: "Jaykatana - Boys 2 Men",
             audioSrc: "assets/media/cudiee.mp3",
             videoSrc: "assets/media/cudiee.mp4",
             duration: 225 
         },
+        <!-- ^^ fifth video ^^ -->
         {
             title: "Osamason - Popstar",
             audioSrc: "assets/media/cudidd.mp3",
             videoSrc: "assets/media/cudidd.mp4",
             duration: 225 
         },
+        <!-- ^^ fourth video ^^ -->
         {
             title: "Glokk40Spaz - Swamp",
             audioSrc: "assets/media/cudigg.mp3",
             videoSrc: "assets/media/cudigg.mp4",
             duration: 225 
         },
+        <!-- ^^ third video ^^ -->
         {
-            title: "Yuke - ian goin ",
-            audioSrc: "assets/media/cudiff.mp3",
-            videoSrc: "assets/media/cudiff.mp4",
-            duration: 76 
+            title: "Fimiguerrero & Len - Excuse My French ",
+            audioSrc: "assets/media/cudigg.mp3",
+            videoSrc: "assets/media/cudigg.mp4",
+            duration: 90 
         }
     ];
+        <!-- ^^ second video ^^ -->
 
     var currentIndex = 0;
 

@@ -61,7 +61,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     ];
         <!-- ^^ second video ^^ -->
-
     var currentIndex = 0;
 
     function loadSong(index) {

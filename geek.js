@@ -1,5 +1,5 @@
 function title() {
-    var titles = ["crafted by restrict", "paid biolink service", "@adopters", "love you"];
+    var titles = ["crafted by restrict", "paid biolink service", "@richmodelsex", "love you"];
     var index = 0;
 
     function newtitle() {
